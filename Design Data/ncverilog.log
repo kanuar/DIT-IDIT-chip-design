@@ -1,0 +1,61 @@
+ncverilog(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s086: Started on Nov 07, 2023 at 00:23:58 IST
+ncverilog
+	bbfly2_4.v
+	bbfly4_4.v
+	idif_fft_8.v
+	code_cov_reverse_testbench.v
+	+access+rw
+	+gui
+	+nccoverage+all
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+
+	Extracting FSMs for coverage:
+		worklib.bbfly2_4
+		worklib.bbfly4_4
+		worklib.idif_fft_8
+		worklib.reverse_testbench
+	Total FSMs extracted = 0
+	Building instance overlay tables: .................... Done
+	Enabling instrumentation for coverage types: block expression FSM toggle functional
+ncelab: *W,COVDCL: By default expression coverage is scored only for Verilog logical operators (|| and &&) and VHDL logical operators (OR, AND, NOR, and NAND), and is scored only in condition expressions. To score coverage for other operators and for expressions in other statements, use the "set_expr_coverable_operators" and "set_expr_coverable_statements" coverage configuration file commands with suitable options at elaboration.
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		               Instances  Unique
+		Modules:              14       4
+		Registers:            34      34
+		Scalar wires:          2       -
+		Vectored wires:      132       -
+		Always blocks:        18      18
+		Initial blocks:        1       1
+		Cont. assignments:    36      14
+		Pseudo assignments:   26      26
+	Writing initial simulation snapshot: worklib.reverse_testbench:v
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm reverse_testbench.clk reverse_testbench.ini0 reverse_testbench.ini1 reverse_testbench.ini2 reverse_testbench.ini3 reverse_testbench.ini4 reverse_testbench.ini5 reverse_testbench.ini6 reverse_testbench.ini7 reverse_testbench.inr0 reverse_testbench.inr1 reverse_testbench.inr2 reverse_testbench.inr3 reverse_testbench.inr4 reverse_testbench.inr5 reverse_testbench.inr6 reverse_testbench.inr7 reverse_testbench.outimag0 reverse_testbench.outimag1 reverse_testbench.outimag2 reverse_testbench.outimag3 reverse_testbench.outimag4 reverse_testbench.outimag5 reverse_testbench.outimag6 reverse_testbench.outimag7 reverse_testbench.outreal0 reverse_testbench.outreal1 reverse_testbench.outreal2 reverse_testbench.outreal3 reverse_testbench.outreal4 reverse_testbench.outreal5 reverse_testbench.outreal6 reverse_testbench.outreal7 reverse_testbench.rst
+Created probe 1
+ncsim> run
+Simulation interrupted at 406900 US + 0
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  reverse_testbench(reverse_testbench)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_06b1b096_00000000.ucm
+  data               :  ./cov_work/scope/test/icc_06b1b096_00000000.ucd
+TOOL:	ncverilog	15.20-s086: Exiting on Nov 07, 2023 at 00:26:51 IST  (total: 00:02:53)
