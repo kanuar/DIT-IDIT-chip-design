@@ -1,0 +1,1419 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+Options:	
+Date:		Wed Nov  8 00:33:56 2023
+Host:		cad19 (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (2cores*2cpus*Intel(R) Pentium(R) CPU G3250 @ 3.20GHz 3072KB)
+OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (15 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+<CMD> getVersion
+<CMD> getVersion
+[INFO] Loading PVS 20.11 fill procedures
+<CMD> win
+<CMD> save_global dit.globals
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file ../../../install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef
+<CMD> set init_verilog design_dit_netlist.v
+<CMD> set init_mmmc_file dit.view
+<CMD> set init_io_file ../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+#% Begin Load MMMC data ... (date=11/08 00:46:34, mem=671.7M)
+#% End Load MMMC data ... (date=11/08 00:46:34, total cpu=0:00:00.0, real=0:00:00.0, peak res=671.9M, current mem=671.9M)
+cap
+
+Loading LEF file ../../../install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef ...
+Set DBUPerIGU to M2 pitch 400.
+**WARN: (IMPLF-201):	Pin 'ECK' in macro 'TLATNCAX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'DFFHQX8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'NAND4XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'MXI2XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'INVX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI222X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'DLY3X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X3' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA22X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI31X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA21X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X6' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+
+viaInitial starts at Wed Nov  8 00:46:34 2023
+viaInitial ends at Wed Nov  8 00:46:34 2023
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from dit.view
+Reading max timing library '/home/install/FOUNDRY/digital/45nm/LIBS/lib/max/slow.lib' ...
+Read 477 cells in library 'gpdk045bc' 
+Reading min timing library '/home/install/FOUNDRY/digital/45nm/LIBS/lib/min/fast.lib' ...
+**WARN: (TECHLIB-9153):	Duplicate definition for attribute 'dont_use' encountered. The last definition will be retained. (File /home/install/FOUNDRY/digital/45nm/LIBS/lib/min/fast.lib, Line 19302)
+Read 477 cells in library 'gpdk045wc' 
+*** End library_loading (cpu=0.02min, real=0.02min, mem=13.5M, fe_cpu=3.81min, fe_real=12.65min, fe_mem=808.1M) ***
+#% Begin Load netlist data ... (date=11/08 00:46:35, mem=689.8M)
+*** Begin netlist parsing (mem=808.1M) ***
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'OAI211XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'OAI211XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'CLKAND2X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'CLKAND2X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'SEDFFHQX1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'SEDFFHQX1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'EDFFTRX2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'EDFFTRX2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'NOR3X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'NOR3X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'DFFHQX4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'DFFHQX4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'CLKMX2X8' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'CLKMX2X8' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'OAI222XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'OAI222XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'OA22XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'OA22XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Created 477 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'design_dit_netlist.v'
+
+*** Memory Usage v#1 (Current mem = 808.113M, initial mem = 284.301M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=808.1M) ***
+#% End Load netlist data ... (date=11/08 00:46:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=699.1M, current mem=699.1M)
+Top level cell is four_fft.
+Hooked 954 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell four_fft ...
+*** Netlist is unique.
+** info: there are 965 modules.
+** info: there are 99 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 836.531M, initial mem = 284.301M) ***
+Reading IO assignment file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" ...
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 1: VERSION 5.6 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 3: MACRO PDI
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 4: CLASS PAD AREAIO ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 5: ORIGIN 0 0 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 6: SIZE 15 BY 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 7: SYMMETRY X Y ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 8: PIN C
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 9: DIRECTION OUTPUT ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 10: USE SIGNAL ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 11: PORT
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 12: LAYER Metal1 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 13: RECT 1 11 2 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 14: LAYER Metal2 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 15: RECT 1 11 2 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 16: LAYER Metal3 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 17: RECT 1 11 2 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 18: LAYER Metal4 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 19: RECT 1 11 2 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 20: LAYER Metal5 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 21: RECT 1 11 2 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 22: LAYER Metal6 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 23: RECT 1 11 2 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 24: END
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 25: END C
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 26: PIN PAD
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 27: DIRECTION INPUT ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 28: USE SIGNAL ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 29: PORT
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 30: LAYER Metal9 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 31: RECT 4 11 6 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 32: END
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 33: END PAD
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 34: PIN VDD
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 35: DIRECTION INOUT ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 36: USE POWER ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 37: PORT
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 38: LAYER Metal1 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 39: RECT 7 11 10 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 40: LAYER Metal2 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 41: RECT 7 11 10 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 42: LAYER Metal3 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 43: RECT 7 11 10 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 44: LAYER Metal4 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 45: RECT 7 11 10 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 46: LAYER Metal5 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 47: RECT 7 11 10 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 48: LAYER Metal6 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 49: RECT 7 11 10 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 50: END
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 51: END VDD
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 52: PIN VSS
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 53: DIRECTION INOUT ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 54: USE GROUND ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 55: PORT
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 56: LAYER Metal1 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 57: RECT 11 11 14 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 58: LAYER Metal2 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 59: RECT 11 11 14 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 60: LAYER Metal3 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 61: RECT 11 11 14 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 62: LAYER Metal4 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 63: RECT 11 11 14 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 64: LAYER Metal5 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 65: RECT 11 11 14 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 66: LAYER Metal6 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 67: RECT 11 11 14 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 68: END
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 69: END VSS
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 70: END PDI
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 72: MACRO PDO
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 73: CLASS PAD AREAIO ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 74: ORIGIN 0 0 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 75: SIZE 15 BY 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 76: SYMMETRY X Y ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 77: PIN I
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 78: DIRECTION INPUT ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 79: USE SIGNAL ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 80: PORT
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 81: LAYER Metal1 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 82: RECT 1 11 2 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 83: LAYER Metal2 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 84: RECT 1 11 2 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 85: LAYER Metal3 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 86: RECT 1 11 2 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 87: LAYER Metal4 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 88: RECT 1 11 2 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 89: LAYER Metal5 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 90: RECT 1 11 2 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 91: LAYER Metal6 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 92: RECT 1 11 2 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 93: END
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 94: END I
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 95: PIN PAD
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 96: DIRECTION INPUT ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 97: USE SIGNAL ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 98: PORT
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 99: LAYER Metal9 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 100: RECT 4 11 6 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 101: END
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 102: END PAD
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 103: PIN VDD
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 104: DIRECTION INOUT ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 105: USE POWER ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 106: PORT
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 107: LAYER Metal1 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 108: RECT 7 11 10 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 109: LAYER Metal2 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 110: RECT 7 11 10 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 111: LAYER Metal3 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 112: RECT 7 11 10 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 113: LAYER Metal4 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 114: RECT 7 11 10 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 115: LAYER Metal5 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 116: RECT 7 11 10 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 117: LAYER Metal6 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 118: RECT 7 11 10 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 119: END
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 120: END VDD
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 121: PIN VSS
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 122: DIRECTION INOUT ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 123: USE GROUND ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 124: PORT
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 125: LAYER Metal1 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 126: RECT 11 11 14 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 127: LAYER Metal2 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 128: RECT 11 11 14 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 129: LAYER Metal3 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 130: RECT 11 11 14 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 131: LAYER Metal4 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 132: RECT 11 11 14 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 133: LAYER Metal5 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 134: RECT 11 11 14 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 135: LAYER Metal6 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 136: RECT 11 11 14 12 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 137: END
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 138: END VSS
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 139: END PDO
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 144: VERSION 5.7 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 146: MACRO BUMPCELL
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 147: CLASS COVER BUMP ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 148: ORIGIN 0 0 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 149: SIZE 15.0 BY 15.0 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 150: SYMMETRY X Y ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 151: PIN PAD
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 152: DIRECTION INPUT ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 153: USE SIGNAL ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 154: PORT
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 155: CLASS CORE ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 156: LAYER Metal9 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 157: POLYGON
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 158: 0  5
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 159: 0  10
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 160: 5  15
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 161: 10 15
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 162: 15 10
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 163: 15 5
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 164: 10 0
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 165: 5  0 ;
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 166: END
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 167: END PAD
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 168: END BUMPCELL
+  Reason: unable to recognize keyword.
+**Warn: ignored IO file "../../../install/FOUNDRY/digital/45nm/LIBS/lef/pads.lef" line 170: END LIBRARY
+  Reason: unable to recognize keyword.
+**WARN: (IMPFP-710):	File version 0 is too old.
+IO file version '0' is too old, will try to place io cell any way.
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+Reading Capacitance Table File ../../../install/FOUNDRY/digital/45nm/dig/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl ...
+Cap table was created using Encounter 10.10-b056_1.
+Process name: cln28hpl_1p10m+alrdl_5x2yu2yz_typical.
+Set Shrink Factor to 0.90000
+**WARN: (IMPEXT-2760):	Layer M10 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2760):	Layer M11 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via VIA9 specified in the cap table is ignored because its top layer, M10, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via RV specified in the cap table is ignored because its top layer, M11, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2710):	Basic Cap table for layer M10 is ignored because the layer is not specified in the technology LEF file.
+#WARNING (NRDB-21) The number of routing layer 9 in the database does not match with the value of 11 in the Extended Cap Table file.
+Importing multi-corner RC tables ... 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: setup
+    RC-Corner Name        : cap
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : '../../../install/FOUNDRY/digital/45nm/dig/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+ 
+ Analysis View: hold
+    RC-Corner Name        : cap
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : '../../../install/FOUNDRY/digital/45nm/dig/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+*Info: initialize multi-corner CTS.
+Reading timing constraints file 'design_dit_tool.sdc' ...
+Current (total cpu=0:03:49, real=0:12:44, peak res=955.9M, current mem=955.9M)
+**WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File design_dit_tool.sdc, Line 9).
+
+**WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File design_dit_tool.sdc, Line 10).
+
+four_fft
+INFO (CTE): Reading of timing constraints file design_dit_tool.sdc completed, with 2 WARNING
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=956.8M, current mem=956.8M)
+Current (total cpu=0:03:49, real=0:12:44, peak res=956.8M, current mem=956.8M)
+Total number of combinational cells: 317
+Total number of sequential cells: 150
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 BUFX3 BUFX4 BUFX8 BUFX6
+Total number of usable buffers: 8
+List of unusable buffers: CLKBUFX2 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX4 CLKBUFX6 CLKBUFX8 CLKBUFX3
+Total number of unusable buffers: 8
+List of usable inverters: INVX1 INVX12 INVX2 INVX3 INVX20 INVX4 INVX6 INVX16 INVXL INVX8
+Total number of usable inverters: 10
+List of unusable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8
+Total number of unusable inverters: 9
+List of identified usable delay cells: DLY1X4 DLY2X4 DLY3X4 DLY1X1 DLY4X1 DLY2X1 DLY3X1 DLY4X4
+Total number of identified usable delay cells: 8
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-201          571  Pin '%s' in macro '%s' has no ANTENNADIF...
+WARNING   IMPFP-710            1  File version %s is too old.              
+WARNING   IMPEXT-2710          1  Basic Cap table for layer M%d is ignored...
+WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
+WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
+WARNING   IMPVL-159          954  Pin '%s' of cell '%s' is defined in LEF ...
+WARNING   TCLCMD-1461          2  Skipped unsupported command: %s          
+WARNING   TECHLIB-9153         1  Duplicate definition for attribute '%s' ...
+*** Message Summary: 1534 warning(s), 0 error(s)
+
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site CoreSite -r 1 0.699873 4 4 4 4
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+The ring targets are set to core/block ring wires.
+addRing command will consider rows while creating rings.
+addRing command will disallow rings to go over rows.
+addRing command will ignore shorts while creating rings.
+<CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal7 bottom Metal7 left Metal8 right Metal8} -width {top 1 bottom 1 left 1 right 1} -spacing {top 1 bottom 1 left 1 right 1} -offset {top 1 bottom 1 left 1 right 1} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1140.1M)
+Ring generation is complete.
+vias are now being generated.
+addRing created 8 wires.
+ViaGen created 8 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| Metal7 |        4       |       NA       |
+|  Via7  |        8       |        0       |
+| Metal8 |        4       |       NA       |
++--------+----------------+----------------+
+<CMD> setPlaceMode -fp false
+<CMD> place_design
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.1) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 0 physical inst  (cell - / prefix -).
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Extracting macro/IO cell pins and blockage ...... 
+Pin and blockage extraction finished
+*** Starting "NanoPlace(TM) placement v#9 (mem=1185.7M)" ...
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:00.7 mem=1185.7M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:00.8 mem=1185.7M) ***
+No user-set net weight.
+Net fanout histogram:
+2		: 59 (45.7%) nets
+3		: 40 (31.0%) nets
+4     -	14	: 30 (23.3%) nets
+15    -	39	: 0 (0.0%) nets
+40    -	79	: 0 (0.0%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+Scan chains were not defined.
+#std cell=99 (0 fixed + 99 movable) #buf cell=0 #inv cell=17 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=129 #term=392 #term/net=3.04, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=52
+stdCell: 99 single + 0 double + 0 multi
+Total standard cell length = 0.1373 (mm), area = 0.0002 (mm^2)
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+Estimated cell power/ground rail width = 0.213 um
+Average module density = 0.693.
+Density for the design = 0.693.
+       = stdcell_area 686 sites (235 um^2) / alloc_area 990 sites (339 um^2).
+Pin Density = 0.3960.
+            = total # of pins 392 / total area 990.
+=== lastAutoLevel = 5 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1195.7M
+Iteration  2: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1195.7M
+Iteration  3: Total net bbox = 6.628e+00 (3.30e+00 3.33e+00)
+              Est.  stn bbox = 6.808e+00 (3.40e+00 3.41e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1197.1M
+Active setup views:
+    setup
+Iteration  4: Total net bbox = 3.435e+02 (2.29e+02 1.15e+02)
+              Est.  stn bbox = 3.503e+02 (2.34e+02 1.17e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1197.1M
+Iteration  5: Total net bbox = 4.530e+02 (3.02e+02 1.51e+02)
+              Est.  stn bbox = 4.710e+02 (3.17e+02 1.54e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1197.1M
+Iteration  6: Total net bbox = 1.473e+03 (8.07e+02 6.66e+02)
+              Est.  stn bbox = 1.552e+03 (8.52e+02 7.00e+02)
+              cpu = 0:00:00.1 real = 0:00:01.0 mem = 1197.1M
+*** cost = 1.473e+03 (8.07e+02 6.66e+02) (cpu for global=0:00:00.1) real=0:00:01.0***
+Info: 0 clock gating cells identified, 0 (on average) moved 0/1
+Solver runtime cpu: 0:00:00.0 real: 0:00:00.0
+Core Placement runtime cpu: 0:00:00.0 real: 0:00:01.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+*** Starting refinePlace (0:04:20 mem=1213.1M) ***
+Total net bbox length = 1.473e+03 (8.068e+02 6.659e+02) (ext = 9.940e+02)
+Move report: Detail placement moves 99 insts, mean move: 1.24 um, max move: 4.57 um 
+	Max move on inst (g3): (22.02, 19.01) --> (18.60, 17.86)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1218.1MB
+Summary Report:
+Instances move: 99 (out of 99 movable)
+Instances flipped: 0
+Mean displacement: 1.24 um
+Max displacement: 4.57 um (Instance: g3) (22.0155, 19.0125) -> (18.6, 17.86)
+	Length: 3 sites, height: 1 rows, site name: CoreSite, cell type: INVX1
+Total net bbox length = 1.542e+03 (8.305e+02 7.111e+02) (ext = 9.739e+02)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1218.1MB
+*** Finished refinePlace (0:04:20 mem=1218.1M) ***
+*** End of Placement (cpu=0:00:01.4, real=0:00:02.0, mem=1212.1M) ***
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+default core: bins with density > 0.750 =  0.00 % ( 0 / 2 )
+Density distribution unevenness ratio = 3.584%
+*** Free Virtual Timing Model ...(mem=1212.1M)
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Info: Disable timing driven in postCTS congRepair.
+
+Starting congRepair ...
+[NR-eGR] Track table information for default rule: 
+[NR-eGR] Metal1 has no routable track
+[NR-eGR] Metal2 has single uniform track structure
+[NR-eGR] Metal3 has single uniform track structure
+[NR-eGR] Metal4 has single uniform track structure
+[NR-eGR] Metal5 has single uniform track structure
+[NR-eGR] Metal6 has single uniform track structure
+[NR-eGR] Metal7 has single uniform track structure
+[NR-eGR] Metal8 has single uniform track structure
+[NR-eGR] Metal9 has single uniform track structure
+[NR-eGR] Read 24 PG shapes
+[NR-eGR] #Routing Blockages  : 0
+[NR-eGR] #Instance Blockages : 0
+[NR-eGR] #PG Blockages       : 24
+[NR-eGR] #Halo Blockages     : 0
+[NR-eGR] #Boundary Blockages : 0
+[NR-eGR] Num Prerouted Nets = 0  Num Prerouted Wires = 0
+[NR-eGR] Read numTotalNets=106  numIgnoredNets=0
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id: 0  Nets: 106 
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 106 net(s) in layer range [2, 9]
+[NR-eGR] Early Global Route overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 5.625900e+02um
+[NR-eGR] Congestion Analysis By layer: (blocked Gcells are excluded) 
+[NR-eGR]                        OverCon            
+[NR-eGR]                         #Gcell     %Gcell
+[NR-eGR]       Layer                (0)    OverCon 
+[NR-eGR] ----------------------------------------------
+[NR-eGR]  Metal1  (1)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal2  (2)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal3  (3)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal4  (4)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal5  (5)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal6  (6)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal7  (7)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal8  (8)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal9  (9)         0( 0.00%)   ( 0.00%) 
+[NR-eGR] ----------------------------------------------
+[NR-eGR] Total                0( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after Early Global Route (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after Early Global Route 0.00% H + 0.00% V
+Early Global Route congestion estimation runtime: 0.06 seconds, mem = 1202.6M
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Started Export DB wires ( Curr Mem: 1202.62 MB )
+[NR-eGR] Started Export all nets ( Curr Mem: 1202.62 MB )
+[NR-eGR] Finished Export all nets ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1202.62 MB )
+[NR-eGR] Started Set wire vias ( Curr Mem: 1202.62 MB )
+[NR-eGR] Finished Set wire vias ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1202.62 MB )
+[NR-eGR] Finished Export DB wires ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1202.62 MB )
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Metal1  (1F) length: 0.000000e+00um, number of vias: 317
+[NR-eGR] Metal2  (2V) length: 1.462750e+02um, number of vias: 360
+[NR-eGR] Metal3  (3H) length: 3.600000e+02um, number of vias: 85
+[NR-eGR] Metal4  (4V) length: 1.011750e+02um, number of vias: 0
+[NR-eGR] Metal5  (5H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal6  (6V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal7  (7H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal8  (8V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal9  (9H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 6.074500e+02um, number of vias: 762
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total eGR-routed clock nets wire length: 0.000000e+00um 
+[NR-eGR] --------------------------------------------------------------------------
+Early Global Route wiring runtime: 0.01 seconds, mem = 1186.6M
+Tdgp not successfully inited but do clear! skip clearing
+End of congRepair (cpu=0:00:00.0, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 2, real = 0: 0: 3, mem = 1186.6M **
+Tdgp not successfully inited but do clear! skip clearing
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           2  The default delay limit was set to %d. T...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+*** Message Summary: 3 warning(s), 0 error(s)
+
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal1 -direction horizontal -width 1.8 -spacing 1.8 -number_of_sets 6 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1201.5M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1201.5M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1201.5M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1201.5M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1201.5M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+**WARN: (IMPPP-354):	The power planner did not generate the horizontal stripe at 2.000000 5.080000 24.799999 5.080000 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the horizontal stripe at 2.000000 7.420000 24.799999 7.420000 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the horizontal stripe at 2.000000 9.760000 24.799999 9.760000 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the horizontal stripe at 2.000000 12.100000 24.799999 12.100000 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the horizontal stripe at 2.000000 14.440000 24.799999 14.440000 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the horizontal stripe at 2.000000 16.780001 24.799999 16.780001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+Stripe generation is complete.
+vias are now being generated.
+addStripe created 12 wires.
+ViaGen created 84 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| Metal1 |       12       |       NA       |
+|  Via1  |       12       |        0       |
+|  Via2  |       12       |        0       |
+|  Via3  |       12       |        0       |
+|  Via4  |       12       |        0       |
+|  Via5  |       12       |        0       |
+|  Via6  |       12       |        0       |
+|  Via7  |       12       |        0       |
++--------+----------------+----------------+
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal7 -direction horizontal -width 1.8 -spacing 1.8 -number_of_sets 6 -start_from bottom -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1201.5M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1201.5M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1201.5M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1201.5M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1201.5M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+**WARN: (IMPPP-354):	The power planner did not generate the horizontal stripe at 2.000000 7.420000 24.799999 7.420000 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the horizontal stripe at 2.000000 9.760000 24.799999 9.760000 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the horizontal stripe at 2.000000 12.100000 24.799999 12.100000 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the horizontal stripe at 2.000000 14.440000 24.799999 14.440000 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the horizontal stripe at 2.000000 16.780001 24.799999 16.780001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+Stripe generation is complete.
+vias are now being generated.
+**WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal7 & Metal1 at (0.00, 7.78) (2.53, 9.58).
+**WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal7 & Metal1 at (24.28, 7.78) (27.80, 9.58).
+**WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal7 & Metal1 at (0.00, 10.12) (2.33, 11.92).
+**WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal7 & Metal1 at (25.67, 10.12) (27.80, 11.92).
+**WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal7 & Metal1 at (0.00, 12.46) (2.07, 14.26).
+**WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal7 & Metal1 at (25.67, 12.46) (27.80, 14.26).
+**WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal7 & Metal1 at (0.00, 14.80) (2.27, 16.60).
+**WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal7 & Metal1 at (25.67, 14.80) (27.80, 16.60).
+**WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal7 & Metal1 at (0.00, 17.14) (2.46, 18.94).
+**WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal7 & Metal1 at (25.08, 17.14) (27.80, 18.94).
+**WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal7 & Metal1 at (0.00, 19.48) (2.46, 21.28).
+**WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal7 & Metal1 at (25.08, 19.48) (27.80, 21.28).
+addStripe created 7 wires.
+ViaGen created 38 vias, deleted 36 vias to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+|  Via1  |        6       |        6       |
+|  Via2  |        6       |        6       |
+|  Via3  |        6       |        6       |
+|  Via4  |        6       |        6       |
+|  Via5  |        6       |        6       |
+|  Via6  |        6       |        6       |
+| Metal7 |        7       |       NA       |
+|  Via7  |        2       |        0       |
++--------+----------------+----------------+
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 1.8 -spacing 1.8 -number_of_sets 6 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1201.5M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1201.5M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1201.5M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1201.5M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1201.5M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 7.780000 2.180000 7.780000 22.280001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 10.660000 2.180000 10.660000 22.280001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 13.540000 2.180000 13.540000 22.280001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 16.420000 2.180000 16.420000 22.280001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 19.299999 2.180000 19.299999 22.280001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+Stripe generation is complete.
+vias are now being generated.
+addStripe created 7 wires.
+ViaGen created 51 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+|  Via7  |       51       |        0       |
+| Metal8 |        7       |       NA       |
++--------+----------------+----------------+
+<CMD> zoomBox 0.55450 1.07500 54.21300 24.88000
+<CMD> zoomBox 2.34700 3.07050 47.95700 23.30500
+<CMD> zoomBox 0.54700 1.07450 54.20600 24.88000
+<CMD> zoomBox -4.13650 -3.98050 70.13250 28.96850
+<CMD> setSrouteMode -viaConnectToShape { noshape }
+<CMD> sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { Metal1(1) Metal9(9) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { Metal1(1) Metal9(9) } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { Metal1(1) Metal9(9) }
+*** Begin SPECIAL ROUTE on Wed Nov  8 00:58:32 2023 ***
+SPECIAL ROUTE ran on directory: /home/cmos/Desktop/DSD_project_only_floor_planning
+SPECIAL ROUTE ran on machine: cad19 (Linux 3.10.0-1160.el7.x86_64 Pentium IV 3.20Ghz)
+
+Begin option processing ...
+srouteConnectPowerBump set to false
+routeSelectNet set to "VDD VSS"
+routeSpecial set to true
+srouteBlockPin set to "useLef"
+srouteBottomLayerLimit set to 1
+srouteBottomTargetLayerLimit set to 1
+srouteConnectConverterPin set to false
+srouteCrossoverViaBottomLayer set to 1
+srouteCrossoverViaTopLayer set to 9
+srouteFloatingStripeTarget set to "blockring padring ring stripe ringpin blockpin followpin"
+srouteFollowCorePinEnd set to 3
+srouteJogControl set to "preferWithChanges differentLayer"
+srouteNoViaOnWireShape set to "padring ring stripe blockring blockpin coverpin blockwire corewire followpin iowire"
+sroutePadPinAllPorts set to true
+sroutePreserveExistingRoutes set to true
+srouteRoutePowerBarPortOnBothDir set to true
+srouteStopBlockPin set to "nearestTarget"
+srouteTopLayerLimit set to 9
+srouteTopTargetLayerLimit set to 9
+End option processing: cpu: 0:00:00, real: 0:00:00, peak: 2318.00 megs.
+
+Reading DB technology information...
+Finished reading DB technology information.
+Reading floorplan and netlist information...
+Finished reading floorplan and netlist information.
+**WARN: (IMPSR-4302):	Cap-table/qrcTechFile is found in the design, so the same information from the technology file will be ignored.
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+Read in 19 layers, 9 routing layers, 1 overlap layer
+Read in 2 nondefault rules, 0 used
+Read in 487 macros, 20 used
+Read in 99 components
+  99 core components: 0 unplaced, 99 placed, 0 fixed
+Read in 12 physical pins
+  12 physical pins: 0 unplaced, 0 placed, 12 fixed
+Read in 64 logical pins
+Read in 53 nets
+Read in 2 special nets, 2 routed
+Read in 12 terminals
+2 nets selected.
+
+Begin power routing ...
+**WARN: (IMPSR-1253):	Unable to find any standard cell pin connected to the VDD net.
+ Run the globalNetConnect command or change the CPF file to ensure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as 'USE POWER' or 'USE GROUND' for the connection.
+**WARN: (IMPSR-1254):	Unable to connect the specified objects, since block pins of the VDD net were not found in the design. Check netlist or change the parameter value to include block pins in the design.
+**WARN: (IMPSR-1256):	Unable to find any CORE class pad pin of the VDD net due to unavailability of the pin or check netlist in the routing area or layer. Change routing area or layer to include the expected pin or check netlist. Alternatively, change port class in the technology file.
+Type 'man IMPSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net VDD. Check net list, or change port class in the technology file, or change option to include pin in given range.
+**WARN: (IMPSR-1253):	Unable to find any standard cell pin connected to the VSS net.
+ Run the globalNetConnect command or change the CPF file to ensure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as 'USE POWER' or 'USE GROUND' for the connection.
+**WARN: (IMPSR-1254):	Unable to connect the specified objects, since block pins of the VSS net were not found in the design. Check netlist or change the parameter value to include block pins in the design.
+**WARN: (IMPSR-1256):	Unable to find any CORE class pad pin of the VSS net due to unavailability of the pin or check netlist in the routing area or layer. Change routing area or layer to include the expected pin or check netlist. Alternatively, change port class in the technology file.
+Type 'man IMPSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net VSS. Check net list, or change port class in the technology file, or change option to include pin in given range.
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VDD.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VDD.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VSS.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VSS.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VDD.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VDD.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+CPU time for FollowPin 0 seconds
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VSS.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VSS.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+CPU time for FollowPin 0 seconds
+**WARN: (IMPPP-531):	ViaGen Warning: Due to MAXVIASTACK rule violation, viaGen fail to generate via on layer Via5 at (2.87, 7.59) (3.12, 7.67).
+  Number of IO ports routed: 0
+  Number of Block ports routed: 0
+  Number of Stripe ports routed: 6
+  Number of Core ports routed: 12  open: 4
+  Number of Pad ports routed: 0
+  Number of Power Bump ports routed: 0
+  Number of Followpin connections: 8
+End power routing: cpu: 0:00:00, real: 0:00:00, peak: 2324.00 megs.
+
+
+
+ Begin updating DB with routing results ...
+ Updating DB with 12 io pins ...
+ Updating DB with 7 via definition ...
+
+sroute post-processing starts at Wed Nov  8 00:58:32 2023
+The viaGen is rebuilding shadow vias for net VDD.
+sroute post-processing ends at Wed Nov  8 00:58:32 2023
+sroute created 32 wires.
+ViaGen created 52 vias, deleted 20 vias to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| Metal1 |       26       |       NA       |
+|  Via1  |       10       |        5       |
+|  Via2  |       10       |        5       |
+|  Via3  |       10       |        5       |
+|  Via4  |       10       |        5       |
+| Metal5 |        6       |       NA       |
+|  Via5  |        4       |        0       |
+|  Via6  |        4       |        0       |
+|  Via7  |        4       |        0       |
++--------+----------------+----------------+
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+<CMD> setNanoRouteMode -quiet -droutePostRouteWidenWireRule VLMDefaultSetup
+<CMD> setNanoRouteMode -quiet -timingEngine {}
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {DLY4X4 DLY3X1 DLY2X1 BUFX6 DLY4X1 DLY1X1 BUFX8 DLY3X4 DLY2X4 DLY1X4 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX16 INVX6 INVX4 INVX20 INVX3 INVX2 INVX12 INVX1} -maxAllowedDelay 1
+<CMD> setPlaceMode -reset
+<CMD> setPlaceMode -congEffort auto -timingDriven 1 -clkGateAware 1 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 1 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+<CMD> setPlaceMode -fp false
+<CMD> place_design
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 0 physical inst  (cell - / prefix -).
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+*** Starting "NanoPlace(TM) placement v#9 (mem=1204.2M)" ...
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:00.7 mem=1205.2M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:00.8 mem=1212.2M) ***
+No user-set net weight.
+Net fanout histogram:
+2		: 59 (45.7%) nets
+3		: 40 (31.0%) nets
+4     -	14	: 30 (23.3%) nets
+15    -	39	: 0 (0.0%) nets
+40    -	79	: 0 (0.0%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+**WARN: (IMPSP-9042):	Scan chains were not defined, -place_global_ignore_scan option will be ignored.
+Define the scan chains before using this option.
+Type 'man IMPSP-9042' for more detail.
+#std cell=99 (0 fixed + 99 movable) #buf cell=0 #inv cell=17 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=129 #term=392 #term/net=3.04, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=52
+stdCell: 99 single + 0 double + 0 multi
+Total standard cell length = 0.1373 (mm), area = 0.0002 (mm^2)
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+Average module density = 0.693.
+Density for the design = 0.693.
+       = stdcell_area 686 sites (235 um^2) / alloc_area 990 sites (339 um^2).
+Pin Density = 0.3960.
+            = total # of pins 392 / total area 990.
+=== lastAutoLevel = 5 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1236.5M
+Iteration  2: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1236.5M
+Iteration  3: Total net bbox = 6.628e+00 (3.30e+00 3.33e+00)
+              Est.  stn bbox = 6.808e+00 (3.40e+00 3.41e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1237.9M
+Active setup views:
+    setup
+Iteration  4: Total net bbox = 3.435e+02 (2.29e+02 1.15e+02)
+              Est.  stn bbox = 3.503e+02 (2.34e+02 1.17e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1237.9M
+Iteration  5: Total net bbox = 4.530e+02 (3.02e+02 1.51e+02)
+              Est.  stn bbox = 4.710e+02 (3.17e+02 1.54e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1237.9M
+Iteration  6: Total net bbox = 7.613e+02 (3.95e+02 3.66e+02)
+              Est.  stn bbox = 8.056e+02 (4.16e+02 3.90e+02)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1237.9M
+*** cost = 7.613e+02 (3.95e+02 3.66e+02) (cpu for global=0:00:00.1) real=0:00:00.0***
+Info: 0 clock gating cells identified, 0 (on average) moved 0/1
+Solver runtime cpu: 0:00:00.0 real: 0:00:00.0
+Core Placement runtime cpu: 0:00:00.0 real: 0:00:00.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+*** Starting refinePlace (0:05:06 mem=1237.9M) ***
+Total net bbox length = 8.035e+02 (4.332e+02 3.703e+02) (ext = 3.380e+02)
+Move report: Detail placement moves 99 insts, mean move: 1.15 um, max move: 3.22 um 
+	Max move on inst (g3507__4733): (20.90, 10.70) --> (18.00, 11.02)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1237.9MB
+Summary Report:
+Instances move: 99 (out of 99 movable)
+Instances flipped: 0
+Mean displacement: 1.15 um
+Max displacement: 3.22 um (Instance: g3507__4733) (20.8995, 10.696) -> (18, 11.02)
+	Length: 9 sites, height: 1 rows, site name: CoreSite, cell type: XOR2X1
+Total net bbox length = 8.747e+02 (4.653e+02 4.094e+02) (ext = 3.159e+02)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1237.9MB
+*** Finished refinePlace (0:05:06 mem=1237.9M) ***
+*** End of Placement (cpu=0:00:01.1, real=0:00:01.0, mem=1237.9M) ***
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+default core: bins with density > 0.750 =  0.00 % ( 0 / 2 )
+Density distribution unevenness ratio = 3.445%
+*** Free Virtual Timing Model ...(mem=1237.9M)
+Starting IO pin assignment...
+The design is not routed. Using placement based method for pin assignment.
+Completed IO pin assignment.
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Info: Disable timing driven in postCTS congRepair.
+
+Starting congRepair ...
+[NR-eGR] Track table information for default rule: 
+[NR-eGR] Metal1 has no routable track
+[NR-eGR] Metal2 has single uniform track structure
+[NR-eGR] Metal3 has single uniform track structure
+[NR-eGR] Metal4 has single uniform track structure
+[NR-eGR] Metal5 has single uniform track structure
+[NR-eGR] Metal6 has single uniform track structure
+[NR-eGR] Metal7 has single uniform track structure
+[NR-eGR] Metal8 has single uniform track structure
+[NR-eGR] Metal9 has single uniform track structure
+[NR-eGR] Read 365 PG shapes
+[NR-eGR] #Routing Blockages  : 0
+[NR-eGR] #Instance Blockages : 0
+[NR-eGR] #PG Blockages       : 365
+[NR-eGR] #Halo Blockages     : 0
+[NR-eGR] #Boundary Blockages : 0
+[NR-eGR] Num Prerouted Nets = 0  Num Prerouted Wires = 0
+[NR-eGR] Read numTotalNets=129  numIgnoredNets=0
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id: 0  Nets: 129 
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 129 net(s) in layer range [2, 9]
+[NR-eGR] Early Global Route overflow of layer group 1: 0.44% H + 0.00% V. EstWL: 8.071200e+02um
+[NR-eGR] Congestion Analysis By layer: (blocked Gcells are excluded) 
+[NR-eGR]                        OverCon            
+[NR-eGR]                         #Gcell     %Gcell
+[NR-eGR]       Layer                (2)    OverCon 
+[NR-eGR] ----------------------------------------------
+[NR-eGR]  Metal1  (1)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal2  (2)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal3  (3)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal4  (4)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal5  (5)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal6  (6)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal7  (7)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal8  (8)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal9  (9)         0( 0.00%)   ( 0.00%) 
+[NR-eGR] ----------------------------------------------
+[NR-eGR] Total                0( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after Early Global Route (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after Early Global Route 0.00% H + 0.00% V
+Early Global Route congestion estimation runtime: 0.02 seconds, mem = 1228.4M
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Started Export DB wires ( Curr Mem: 1228.38 MB )
+[NR-eGR] Started Export all nets ( Curr Mem: 1228.38 MB )
+[NR-eGR] Finished Export all nets ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1228.38 MB )
+[NR-eGR] Started Set wire vias ( Curr Mem: 1228.38 MB )
+[NR-eGR] Finished Set wire vias ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1228.38 MB )
+[NR-eGR] Finished Export DB wires ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1228.38 MB )
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Metal1  (1F) length: 0.000000e+00um, number of vias: 340
+[NR-eGR] Metal2  (2V) length: 3.225050e+02um, number of vias: 414
+[NR-eGR] Metal3  (3H) length: 4.032100e+02um, number of vias: 112
+[NR-eGR] Metal4  (4V) length: 1.264450e+02um, number of vias: 13
+[NR-eGR] Metal5  (5H) length: 4.900000e+00um, number of vias: 12
+[NR-eGR] Metal6  (6V) length: 1.900000e-01um, number of vias: 8
+[NR-eGR] Metal7  (7H) length: 0.000000e+00um, number of vias: 8
+[NR-eGR] Metal8  (8V) length: 4.085000e+00um, number of vias: 17
+[NR-eGR] Metal9  (9H) length: 3.969000e+01um, number of vias: 0
+[NR-eGR] Total length: 9.010250e+02um, number of vias: 924
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total eGR-routed clock nets wire length: 0.000000e+00um 
+[NR-eGR] --------------------------------------------------------------------------
+Early Global Route wiring runtime: 0.01 seconds, mem = 1214.4M
+Tdgp not successfully inited but do clear! skip clearing
+End of congRepair (cpu=0:00:00.0, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 1, real = 0: 0: 1, mem = 1214.4M **
+Tdgp not successfully inited but do clear! skip clearing
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           2  The default delay limit was set to %d. T...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPSP-9042           1  Scan chains were not defined, -place_glo...
+*** Message Summary: 4 warning(s), 0 error(s)
+
+<CMD> saveDesign dit.enc
+#% Begin save design ... (date=11/08 01:00:46, mem=1034.5M)
+% Begin Save ccopt configuration ... (date=11/08 01:00:46, mem=1036.5M)
+% End Save ccopt configuration ... (date=11/08 01:00:46, total cpu=0:00:00.0, real=0:00:00.0, peak res=1037.4M, current mem=1037.4M)
+% Begin Save netlist data ... (date=11/08 01:00:46, mem=1037.4M)
+Writing Binary DB to dit.enc.dat/four_fft.v.bin in single-threaded mode...
+% End Save netlist data ... (date=11/08 01:00:46, total cpu=0:00:00.0, real=0:00:00.0, peak res=1037.5M, current mem=1037.5M)
+Saving symbol-table file ...
+Saving congestion map file dit.enc.dat/four_fft.route.congmap.gz ...
+% Begin Save AAE data ... (date=11/08 01:00:46, mem=1037.6M)
+Saving AAE Data ...
+% End Save AAE data ... (date=11/08 01:00:46, total cpu=0:00:00.0, real=0:00:00.0, peak res=1037.7M, current mem=1037.7M)
+Saving preference file dit.enc.dat/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+% Begin Save floorplan data ... (date=11/08 01:00:47, mem=1038.6M)
+Saving floorplan file ...
+% End Save floorplan data ... (date=11/08 01:00:47, total cpu=0:00:00.0, real=0:00:00.0, peak res=1038.6M, current mem=1038.6M)
+Saving Drc markers ...
+... 4 markers are saved ...
+... 0 geometry drc markers are saved ...
+... 0 antenna drc markers are saved ...
+% Begin Save placement data ... (date=11/08 01:00:47, mem=1038.7M)
+** Saving stdCellPlacement_binary (version# 2) ...
+Save Adaptive View Pruning View Names to Binary file
+% End Save placement data ... (date=11/08 01:00:47, total cpu=0:00:00.0, real=0:00:00.0, peak res=1038.7M, current mem=1038.7M)
+% Begin Save routing data ... (date=11/08 01:00:47, mem=1038.7M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1214.1M) ***
+% End Save routing data ... (date=11/08 01:00:47, total cpu=0:00:00.0, real=0:00:00.0, peak res=1038.8M, current mem=1038.8M)
+Saving property file dit.enc.dat/four_fft.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1217.1M) ***
+% Begin Save power constraints data ... (date=11/08 01:00:47, mem=1039.4M)
+% End Save power constraints data ... (date=11/08 01:00:47, total cpu=0:00:00.0, real=0:00:00.0, peak res=1039.5M, current mem=1039.5M)
+cap
+Generated self-contained design dit.enc.dat
+#% End save design ... (date=11/08 01:00:47, total cpu=0:00:00.5, real=0:00:01.0, peak res=1042.0M, current mem=1042.0M)
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> saveDesign dit.enc
+#% Begin save design ... (date=11/08 01:00:47, mem=1042.0M)
+% Begin Save ccopt configuration ... (date=11/08 01:00:47, mem=1042.0M)
+% End Save ccopt configuration ... (date=11/08 01:00:47, total cpu=0:00:00.0, real=0:00:01.0, peak res=1042.0M, current mem=1042.0M)
+% Begin Save netlist data ... (date=11/08 01:00:48, mem=1042.0M)
+Writing Binary DB to dit.enc.dat.tmp/four_fft.v.bin in single-threaded mode...
+% End Save netlist data ... (date=11/08 01:00:48, total cpu=0:00:00.0, real=0:00:00.0, peak res=1042.0M, current mem=1042.0M)
+Saving symbol-table file ...
+Saving congestion map file dit.enc.dat.tmp/four_fft.route.congmap.gz ...
+% Begin Save AAE data ... (date=11/08 01:00:48, mem=1042.0M)
+Saving AAE Data ...
+% End Save AAE data ... (date=11/08 01:00:48, total cpu=0:00:00.0, real=0:00:00.0, peak res=1042.0M, current mem=1042.0M)
+Saving preference file dit.enc.dat.tmp/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+% Begin Save floorplan data ... (date=11/08 01:00:48, mem=1042.1M)
+Saving floorplan file ...
+% End Save floorplan data ... (date=11/08 01:00:48, total cpu=0:00:00.0, real=0:00:00.0, peak res=1042.1M, current mem=1042.1M)
+Saving Drc markers ...
+... 4 markers are saved ...
+... 0 geometry drc markers are saved ...
+... 0 antenna drc markers are saved ...
+% Begin Save placement data ... (date=11/08 01:00:48, mem=1042.1M)
+** Saving stdCellPlacement_binary (version# 2) ...
+Save Adaptive View Pruning View Names to Binary file
+% End Save placement data ... (date=11/08 01:00:48, total cpu=0:00:00.0, real=0:00:00.0, peak res=1042.1M, current mem=1042.1M)
+% Begin Save routing data ... (date=11/08 01:00:48, mem=1042.1M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1251.0M) ***
+% End Save routing data ... (date=11/08 01:00:48, total cpu=0:00:00.0, real=0:00:00.0, peak res=1042.1M, current mem=1042.1M)
+Saving property file dit.enc.dat.tmp/four_fft.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1254.0M) ***
+% Begin Save power constraints data ... (date=11/08 01:00:48, mem=1042.2M)
+% End Save power constraints data ... (date=11/08 01:00:48, total cpu=0:00:00.0, real=0:00:00.0, peak res=1042.2M, current mem=1042.2M)
+cap
+Generated self-contained design dit.enc.dat.tmp
+#% End save design ... (date=11/08 01:00:49, total cpu=0:00:00.5, real=0:00:02.0, peak res=1042.4M, current mem=1042.4M)
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> win off
