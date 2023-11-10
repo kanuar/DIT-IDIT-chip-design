@@ -1,0 +1,14 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+add.v
+mul.v
+sub.v
+bfly2_4.v
+bfly4_4.v
+dit_fft_point8.v
+code_cov_testbench.v
++access+rw
++gui
++nccoverage+all

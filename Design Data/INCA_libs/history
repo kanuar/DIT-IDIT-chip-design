@@ -1,0 +1,17 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(06Nov2023:23:49:09):( ncverilog add.v mul.v sub.v bfly2_4.v bfly4_4.v dit_fft_point8.v code_cov_testbench.v +access+rw +gui +nccoverage+all )
+s2::(07Nov2023:00:01:11):( ncverilog add.v bfly2_4.v bfly4_4.v mul.v sub.v dit_fft_point8.v code_cov_testbench.v +access+rw +gui +nccoverage+all )
+s3::(07Nov2023:00:04:00):( ncverilog add.v bfly2_4.v bfly4_4.v mul.v sub.v dit_fft_point8.v code_cov_testbench.v +access+rw +gui +nccoverage+all )
+s4::(07Nov2023:00:04:14):( ncverilog add.v bfly2_4.v bfly4_4.v mul.v sub.v dit_fft_point8.v code_cov_testbench.v +access+rw +gui +nccoverage+all )
+s5::(07Nov2023:00:04:22):( ncverilog add.v bfly2_4.v bfly4_4.v mul.v sub.v dit_fft_point8.v code_cov_testbench.v +access+rw +gui +nccoverage+all )
+s6::(07Nov2023:00:04:24):( ncverilog add.v bfly2_4.v bfly4_4.v mul.v sub.v dit_fft_point8.v code_cov_testbench.v +access+rw +gui +nccoverage+all )
+s7::(07Nov2023:00:04:35):( ncverilog add.v bfly2_4.v bfly4_4.v mul.v sub.v dit_fft_point8.v code_cov_testbench.v +access+rw +gui +nccoverage+all )
+s8::(07Nov2023:00:04:48):( ncverilog add.v bfly2_4.v bfly4_4.v mul.v sub.v dit_fft_point8.v code_cov_testbench.v +access+rw +gui +nccoverage+all )
+s9::(07Nov2023:00:05:01):( ncverilog add.v bfly2_4.v bfly4_4.v mul.v sub.v dit_fft_point8.v code_cov_testbench.v +access+rw +gui +nccoverage+all )
+s10::(07Nov2023:00:09:06):( ncverilog add.v bfly2_4.v bfly4_4.v mul.v sub.v dit_fft_point8.v code_cov_testbench.v +access+rw +gui +nccoverage+all )
+s11::(07Nov2023:00:15:14):( ncverilog add.v bbfly2_4.v bbfly4_4.v mul.v sub.v idif_fft_8.v code_cov_reverse_testbench.v +access+rw +gui +nccoverage+all )
+s12::(07Nov2023:00:20:13):( ncverilog add.v bbfly2_4.v bbfly4_4.v mul.v sub.v idif_fft_8.v code_cov_reverse_testbench.v +access+rw +gui +nccoverage+all )
+s13::(07Nov2023:00:23:58):( ncverilog bbfly2_4.v bbfly4_4.v idif_fft_8.v code_cov_reverse_testbench.v +access+rw +gui +nccoverage+all )

@@ -1,0 +1,11 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+bbfly2_4.v
+bbfly4_4.v
+idif_fft_8.v
+code_cov_reverse_testbench.v
++access+rw
++gui
++nccoverage+all
