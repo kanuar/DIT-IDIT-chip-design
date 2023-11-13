@@ -1,4 +1,4 @@
-# DIT-IDIT-chip-design
+# DIT-IDIF-chip-design
 
 
 ### Introduction
@@ -27,5 +27,5 @@ the following are the tools used in this project along with a short brief on the
 * Innovus : physical design
 * Genus : synthesis and reporting statistics
 
-### Specifications provided for the DIT-IDIT chip
+### Specifications provided for the DIT-IDIF chip
 
